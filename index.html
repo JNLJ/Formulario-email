@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario animado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form action="enviar.php" method="POST" class="formulario">
+        <h1 class="formulario_titulo">Contáctenos</h1>
+        <input type="text" name="nombres" class="formulario_Input" required>
+        <label for="" class="formulario_Label">Nombres</label>
+        <input type="email" name="correo" class="formulario_Input" required>
+        <label for="" class="formulario_Label">Correo</label>
+        <input type="number" name="telefono" class="formulario_Input" required>
+        <label for="" class="formulario_Label">Teléfono</label>
+        <input type="text" name="mensaje" class="formulario_Input" required>
+        <label for="" class="formulario_Label">Mensaje</label>
+        <input type="submit" class="formulario_Submit">
+        <script src="./form.js"></script>
+    </form>
+</body>
+</html>
